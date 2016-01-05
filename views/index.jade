@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  h4 Happy path
+  p
+    a(href="/1450137600") Test with 1450137600
+  p  
+    a(href="/December%2015,%202015") Test with December%2015,%202015
+  h4 Sad path
+  p
+    a(href="/foo1437600") Test with foo1437600
+  p  
+    a(href="/DeXember%2015,%202015") Test with DeXember%2015,%202015
